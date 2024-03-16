@@ -6,7 +6,7 @@ function EditEventPage() {
   return (
     <>
       <h1>Haber dediginin kici basi oynar, editle </h1>
-      <EventForm event={data.event} />
+      <EventForm method = 'patch' event={data.event} />
     </>
   );
 }
